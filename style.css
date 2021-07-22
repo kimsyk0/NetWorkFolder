@@ -1,98 +1,102 @@
-.profile{
-    width: 200px;
-    height: 200px;
-    border-radius: 250px;
-    display: block;
-    margin: 90px auto 0 auto;
-    
-    
-
-    
-}
 body{
-    background-color: #32313a;
-    
-}
-
-.account{
-    color: aliceblue;
-    text-align: center;
-    font-family: Arial;
-    padding-top: 5px;
-    font-size: 12px;
-}
-
-.account2{
-    color: aliceblue;
-    text-align: center;
-    font-family: Arial;
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-
-}
-h2{
-    color: aliceblue;
-    text-align: center;
-    font-size: 36px;
-    font-family: Georgia;
-    padding-top: 80px;
-
+    background-color: rgb(29, 37, 45);
 }
 .button{
     width: 300px;
     height: 40px;
-    border-radius: 10px;
     border: none;
-    background-color:  aliceblue;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
     display: block;
-    margin: auto;
-}
-.music_icon{
-    width: 25px;
-    height: 25px;
-    
-}
-.button2{
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color:  aliceblue;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-}
-.button3{
-    width: 300px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    background-color:  aliceblue;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
+    margin: 0px auto 0 auto;
+
 }
 
-.katagori{
-    color: rgb(225, 225, 225);
-    display: block;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-    font-family: Georgia;
-    font-size: 16px;
-    
-}
-.button4{
+.buttonmargintop{
     width: 300px;
     height: 40px;
-    border-radius: 10px;
     border: none;
-    background-color:  aliceblue;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
     display: block;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 150px;
+    margin: 20px auto 0 auto;
+    
+
+}
+.buttonmargintop:hover{
+    width: 330px;
+    height: 45px;
+
+ 
+}
+.button:hover{
+    width: 330px;
+    height: 45px;
+
+ 
+}
+.buttonmarginbottum:hover{
+    width: 330px;
+    height: 45px;
+
+ 
+}
+
+.buttonmarginbottum{
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    margin: 20px auto 120px auto;
+    
+
+}
+.button_text{
+    color: rgb(41, 41, 41);
+    font-family: Trebuchet ms;
+
+    font-weight: 500;
+
+    font-size: 18px;
+
+}
+.katagori{
+    display: block;
+    margin: 30px auto 30px auto;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 18px;
+    color: blanchedalmond;
+    text-align: center;
+
+
+}
+.profile_img{
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100%;
+
+}
+.profile_mar{
+    display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+.profile_name{
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.title{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 10px;
+
 }
