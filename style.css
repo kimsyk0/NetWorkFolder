@@ -9,6 +9,7 @@ body{
     background-color: rgb(221, 221, 221);
     display: block;
     margin: 0px auto 0 auto;
+    transition: all .4s;
 
 }
 
@@ -20,25 +21,30 @@ body{
     background-color: rgb(221, 221, 221);
     display: block;
     margin: 20px auto 0 auto;
-    
+    transition: all .4s;
+
 
 }
 .buttonmargintop:hover{
     width: 330px;
     height: 45px;
+    transition: all .3s;
+
 
  
 }
 .button:hover{
     width: 330px;
     height: 45px;
+    transition: all .3s;
+
 
  
 }
 .buttonmarginbottum:hover{
     width: 330px;
     height: 45px;
-
+    transition: all .3s;
  
 }
 
@@ -50,6 +56,8 @@ body{
     background-color: rgb(221, 221, 221);
     display: block;
     margin: 20px auto 120px auto;
+    transition: all .4s;
+
     
 
 }
