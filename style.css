@@ -13,6 +13,15 @@ body{
 
 }
 
+.button:hover{
+    width: 330px;
+    height: 45px;
+    transition: all .3s;
+
+
+ 
+}
+
 .buttonmargintop{
     width: 300px;
     height: 40px;
@@ -23,8 +32,9 @@ body{
     margin: 20px auto 0 auto;
     transition: all .4s;
 
-
+    
 }
+
 .buttonmargintop:hover{
     width: 330px;
     height: 45px;
@@ -33,20 +43,7 @@ body{
 
  
 }
-.button:hover{
-    width: 330px;
-    height: 45px;
-    transition: all .3s;
 
-
- 
-}
-.buttonmarginbottum:hover{
-    width: 330px;
-    height: 45px;
-    transition: all .3s;
- 
-}
 
 .buttonmarginbottum{
     width: 300px;
@@ -61,6 +58,14 @@ body{
     
 
 }
+.buttonmarginbottum:hover{
+    width: 330px;
+    height: 45px;
+    transition: all .3s;
+ 
+}
+
+
 .button_text{
     color: rgb(41, 41, 41);
     font-family: Trebuchet ms;
@@ -81,6 +86,15 @@ body{
 
 
 }
+.title{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    font-family: monospace;
+    padding-top: 10px;
+
+}
 .profile_img{
     width: 200px;
     height: 200px;
@@ -95,16 +109,11 @@ body{
 }
 .profile_name{
     color: blanchedalmond;
-    text-align: center;
+    
+        display:table;
+        margin:20px auto;
+       
     text-decoration: none;
     font-family: sans-serif;
 }
-.title{
-    color: blanchedalmond;
-    text-align: center;
-    font-size: 34px;
-    font-weight: bold;
-    font-family: monospace;
-    padding-top: 10px;
 
-}
