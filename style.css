@@ -29,7 +29,7 @@ body{
     border-radius: 5px;
     background-color: rgb(221, 221, 221);
     display: block;
-    margin: 20px auto 0 auto;
+    margin: 14px auto 0 auto;
     transition: all .4s;
 
     
@@ -52,7 +52,7 @@ body{
     border-radius: 5px;
     background-color: rgb(221, 221, 221);
     display: block;
-    margin: 20px auto 120px auto;
+    margin: 15px auto 120px auto;
     transition: all .4s;
 
     
@@ -68,7 +68,7 @@ body{
 
 .button_text{
     color: rgb(41, 41, 41);
-    font-family: Trebuchet ms;
+    font-family: arial;
 
     font-weight: 500;
 
@@ -89,10 +89,10 @@ body{
 .title{
     color: blanchedalmond;
     text-align: center;
-    font-size: 34px;
+    font-size: 36px;
     font-weight: bold;
     font-family: monospace;
-    padding-top: 10px;
+    padding-top: 8px;
 
 }
 .profile_img{
@@ -105,7 +105,7 @@ body{
 .profile_mar{
     display: flex;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 84px;
 }
 .profile_name{
     color: blanchedalmond;
